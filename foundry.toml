@@ -1,0 +1,19 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+unchecked_cheatcode_artifacts = true
+fs_permissions = [{ access = "read-write", path = "./out"}]
+
+
+verbosity=1
+
+#match_path = "test/mainnet-router.t.sol"
+#match_test="test_fees_eth"
+
+
+
+
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
